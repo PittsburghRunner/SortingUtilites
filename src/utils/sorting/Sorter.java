@@ -122,7 +122,9 @@ public class Sorter {
             int[] secondHalf = new int[secondHalfLength];
             System.arraycopy(list, list.length / 2, secondHalf, 0, secondHalfLength);
             finalizeSorting();
-            return merge(firstHalf, secondHalf, list);
+            int[] result = merge(firstHalf, secondHalf, list);
+            finalizeSorting();
+            return result;
             //runs "on the folding back up"
         } //close if
         finalizeSorting();
