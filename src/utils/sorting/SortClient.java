@@ -34,22 +34,22 @@ public class SortClient {
             if(debug)System.out.println("\n\n\n\n\n ");
             System.out.println("Position " + i );
             if(debug)System.out.println(" Array to process: ");
-            printArray(array);
+            if(debug)printArray(array);
             
             result = su.bubbleSort(array);
             bubbleSortTimes[i] = (int)(su.getRunTime()[1] - su.getRunTime()[0]);
             if(debug)System.out.println("Time to process: " + bubbleSortTimes[i]);
-           if(debug) System.out.println("Bubble Sorted ");
-            printArray(result);
+            if(debug) System.out.println("Bubble Sorted ");
+            if(debug)printArray(result);
             
             if(debug)System.out.println("Array to process: ");
-            printArray(array);
+            if(debug)printArray(array);
 
             result = su.bucketSort(array);
             bucketSortTimes[i] = (int)(su.getRunTime()[1] - su.getRunTime()[0]);
             if(debug)System.out.println("Time to process: " + bucketSortTimes[i]);
             if(debug)System.out.println("Bucket Sorted ");
-            printArray(result);
+            if(debug)printArray(result);
             
 //            System.out.println("Array to process: ");
 //            printArray(array);
@@ -58,7 +58,7 @@ public class SortClient {
 //            mergeSortTimes[i] = (int)(su.getRunTime()[1] - su.getRunTime()[0]);
 //            if(debug)System.out.println("Time to process: " + mergeSortTimes[i]);
 //            if(debug)System.out.println("Merge Sorted ");
-//            printArray(result);
+//            if(debug)printArray(result);
             
 
         }
