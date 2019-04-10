@@ -3,7 +3,7 @@
 
 ## Test case Description
 
-* We were told to complie a program that could compare the the sort methods to see which method is the fastest 
+* We were told to complie a program that could compare the the sort methods to see which method is the fastest.
 
 ## Time peformance for bubble sort 
 
@@ -11,6 +11,6 @@
 
 ## Time performace for comparsion algo 
 
-## Describe results of test 
+## Test Results 
 
 * After our extensive testing we found that out of bucket sort, bubble sort, and merge sort, merge sort is the fastest. 
