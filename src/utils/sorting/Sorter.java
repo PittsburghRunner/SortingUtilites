@@ -265,7 +265,7 @@ public class Sorter {
      * returns runtime of last sorted 
      * @return 
      */
-    public Long[] getRunTime() {
+    public Long[] getRunTimes() {
         Long[] runTime = new Long[2];
         runTime[0] = runTimeStart.toEpochMilli();
         runTime[1] = runTimeEnd.toEpochMilli();
