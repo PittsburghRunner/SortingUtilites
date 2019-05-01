@@ -222,6 +222,9 @@ public class Sorter {
         return list;
     }
     
+    
+    
+    
     /** starts the sorting process by zeroing out values and setting the start date
      * 
      */
